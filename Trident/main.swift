@@ -51,8 +51,16 @@ let S = Int(readLine()!)!
 //
 
 // Draw one time
-for _ in 1...T {
-    print("*")
+//for _ in 1...T {
+//    print("*")
+//}
+
+// Draw first line of all three tines with space between them
+for _ in 1...3 {
+    print("*", terminator: "")
+    
+    for _ in 1...S {
+    
+        print("s", terminator: "")
+    }
 }
-
-
