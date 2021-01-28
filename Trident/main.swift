@@ -59,7 +59,7 @@ for _ in 1...T {
 
         for _ in 1...S {
 
-            print("s", terminator: "")
+            print(" ", terminator: "")
         }
     }
 
@@ -67,8 +67,13 @@ for _ in 1...T {
 // The \n character sequence
 // pushes the content down to the next line
     print("\n", terminator: "")
-
 }
+    
+    for _ in 1...3 + S + S  {
+        print("*", terminator: "")
+    }
+
+
 
 // Draw first line of all three tines with space between them
 //for _ in 1...3 {
