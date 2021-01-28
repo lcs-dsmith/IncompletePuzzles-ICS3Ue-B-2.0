@@ -64,7 +64,9 @@ for _ in 1...T {
     }
 
 // Row compleate .. next line
-print("")
+// The \n character sequence
+// pushes the content down to the next line
+    print("\n", terminator: "")
 
 }
 
