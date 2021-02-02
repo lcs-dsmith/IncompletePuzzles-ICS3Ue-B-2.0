@@ -50,6 +50,10 @@
 		0EE0D96C252564CB0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
 		4A9E351E25C9BAD50075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
 		4A9E352925C9DE7E0075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
+		4A9E353425C9E4C60075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
+		4A9E353F25C9E4CD0075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
+		4A9E354A25C9E4D00075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
+		4A9E355525C9E4D60075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
 		4AC82C0825BF281400ADFB56 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
 		4AC82C1325BF281E00ADFB56 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736521252B632200F3914E /* main.swift */; };
 		4AC82C1E25BF282500ADFB56 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
@@ -764,6 +768,7 @@
 			files = (
 				0E48F48B254B4C66007530A3 /* ISpeakTXTMSGTests.swift in Sources */,
 				4AC82C0825BF281400ADFB56 /* main.swift in Sources */,
+				4A9E353425C9E4C60075718E /* Extrentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,6 +777,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E7364C12528B54400F3914E /* main.swift in Sources */,
+				4A9E355525C9E4D60075718E /* Extrentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +786,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E736522252B632200F3914E /* main.swift in Sources */,
+				4A9E354A25C9E4D00075718E /* Extrentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,6 +795,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E736531252B64C800F3914E /* main.swift in Sources */,
+				4A9E353F25C9E4CD0075718E /* Extrentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
