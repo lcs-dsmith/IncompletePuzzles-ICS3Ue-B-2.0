@@ -21,16 +21,16 @@ print("=============")
 // INPUT
 
 // Get daytime minutes
-print("Number of daytime minutes?")
-let day = Int(readLine()!)!
+//print("Number of daytime minutes?")
+let day = Int.collectInput(withPrompt: "Number of daytime minuits ", minimum: 1, maximum: nil)
 
 // Get evening minutes
-print("Number of evening minutes?")
-let evening = Int(readLine()!)!
+//print("Number of evening minutes?")
+let evening = Int.collectInput(withPrompt: "Number of nightime minuits ", minimum: 1, maximum: nil)
 
 // Get weekend minutes
-print("Number of weekend minutes?")
-let weekend = Int(readLine()!)!
+//print("Number of weekend minutes?")
+let weekend = Int.collectInput(withPrompt: "Number of weekend minuits ", minimum: 1, maximum: nil)
 
 // INPUT
 
