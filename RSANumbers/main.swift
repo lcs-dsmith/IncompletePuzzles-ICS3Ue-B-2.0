@@ -21,41 +21,49 @@ print("===========")
 // INPUT
 
 // Get lower limit of range
-print("Enter lower limit of range")
-let lower = Int(readLine()!)!
+
+let lower = Int.collectInput(withPrompt: "Enter lower limit of range ", minimum: 0, maximum: nil)
 
 // Get upper limit of range
-print("Enter upper limit of range")
-let upper = Int(readLine()!)!
+
+let upper = Int.collectInput(withPrompt: "Enter upper limit of range ", minimum: 0, maximum: nil)
 
 // PROCESS
 
 // Count the number of divisors in the given Number
-func divisorCount(of givenNumber: Int) -> Int {
+func countOfRSANumbersFrom(lower lowerNumber: Int, upper upperNumber: Int) -> Int {
     
     // 1 is always a divisor
     var divisorCount = 1
-    
+    var divisor4 = 0
     // Start looping from 2
-    for i in 2...givenNumber {
-        
-        // What is the remainder?
-        let remainder = givenNumber % i
-        
-        // DEBUG output...
-        print("\(givenNumber) \\ \(i) has a remainder of \(remainder)")
-        
-        // TODO: Add some code here... we need to keep track of how many divisors there are
-        if remainder == 0 {
+    for j in lowerNumber...upperNumber {
+        for i in 2...upperNumber {
             
+            // What is the remainder?
+            let remainder = j % i
+            
+            // DEBUG output...
+            print("\(j) \\ \(i) has a remainder of \(remainder)")
+            
+            // TODO: Add some code here... we need to keep track of how many divisors there are
+            if remainder == 0 {
+                divisorCount += 1
+            print(divisorCount)
+            }
+
         }
         
+        if divisorCount == 4 {
+            divisor4 += 1
+        }
+    divisorCount = 1
     }
-    
     // Return the count of divisors
-    return divisorCount
+    return divisor4
     
 }
 
 // How many divisors does a number have?
-print("5 has this many divisors... \(divisorCount(of: 5))")
+let RSANumbers = countOfRSANumbersFrom(lower: lower, upper: upper)
+print("The number of RSA numbers between \(lower) and \(upper) is \(RSANumbers)")

@@ -48,6 +48,18 @@
 		0E736531252B64C800F3914E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
 		0EE0D95F252563ED0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		0EE0D96C252564CB0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
+		4A516E6325E41D19009B06E0 /* TridentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E6225E41D19009B06E0 /* TridentAppApp.swift */; };
+		4A516E6525E41D19009B06E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E6425E41D19009B06E0 /* ContentView.swift */; };
+		4A516E6725E41D1E009B06E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A516E6625E41D1E009B06E0 /* Assets.xcassets */; };
+		4A516E6A25E41D1E009B06E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A516E6925E41D1E009B06E0 /* Preview Assets.xcassets */; };
+		4A516E9525E41F76009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516E9625E41F76009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516E9725E41F76009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516E9825E41F76009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516E9925E41F76009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516E9A25E41F76009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516EC725E42046009B06E0 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A516E9425E41F76009B06E0 /* Functions.swift */; };
+		4A516ED325E42048009B06E0 /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
 		4A9E351E25C9BAD50075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
 		4A9E352925C9DE7E0075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
 		4A9E353425C9E4C60075718E /* Extrentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0BB325C86F2C00059481 /* Extrentions.swift */; };
@@ -171,6 +183,14 @@
 		0EE0D969252564CB0090B2E0 /* TheCellSell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheCellSell; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE0D96B252564CB0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4A0F0BB325C86F2C00059481 /* Extrentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extrentions.swift; sourceTree = "<group>"; };
+		4A516E6025E41D19009B06E0 /* TridentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TridentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A516E6225E41D19009B06E0 /* TridentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TridentAppApp.swift; sourceTree = "<group>"; };
+		4A516E6425E41D19009B06E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A516E6625E41D1E009B06E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A516E6925E41D1E009B06E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A516E6B25E41D1F009B06E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A516E6C25E41D1F009B06E0 /* TridentApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TridentApp.entitlements; sourceTree = "<group>"; };
+		4A516E9425E41F76009B06E0 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCellSellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140D45F25BB3241006B6DBB /* TheCellSellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCellSellTests.swift; sourceTree = "<group>"; };
 		8140D46125BB3241006B6DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -234,6 +254,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0EE0D966252564CB0090B2E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A516E5D25E41D19009B06E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,12 +394,14 @@
 		0EE0D943252563B00090B2E0 = {
 			isa = PBXGroup;
 			children = (
+				4A516E9425E41F76009B06E0 /* Functions.swift */,
 				4A0F0BB325C86F2C00059481 /* Extrentions.swift */,
 				0EE0D96A252564CB0090B2E0 /* TheCellSell */,
 				0E73652F252B64C800F3914E /* ISpeakTXTMSG */,
 				0E736520252B632200F3914E /* ShiftySums */,
 				0EE0D95D252563ED0090B2E0 /* Trident */,
 				0E7364BF2528B54400F3914E /* RSANumbers */,
+				4A516E6125E41D19009B06E0 /* TridentApp */,
 				0EE0D94D252563B00090B2E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -390,6 +419,7 @@
 				0E08FD4C254B280E0014C595 /* ShiftySumsTests.xctest */,
 				0E48F488254B4C66007530A3 /* ISpeakTXTMSGTests.xctest */,
 				8140D45D25BB3241006B6DBB /* TheCellSellTests.xctest */,
+				4A516E6025E41D19009B06E0 /* TridentApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -412,6 +442,27 @@
 				0EE0D96B252564CB0090B2E0 /* main.swift */,
 			);
 			path = TheCellSell;
+			sourceTree = "<group>";
+		};
+		4A516E6125E41D19009B06E0 /* TridentApp */ = {
+			isa = PBXGroup;
+			children = (
+				4A516E6225E41D19009B06E0 /* TridentAppApp.swift */,
+				4A516E6425E41D19009B06E0 /* ContentView.swift */,
+				4A516E6625E41D1E009B06E0 /* Assets.xcassets */,
+				4A516E6B25E41D1F009B06E0 /* Info.plist */,
+				4A516E6C25E41D1F009B06E0 /* TridentApp.entitlements */,
+				4A516E6825E41D1E009B06E0 /* Preview Content */,
+			);
+			path = TridentApp;
+			sourceTree = "<group>";
+		};
+		4A516E6825E41D1E009B06E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A516E6925E41D1E009B06E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8140D45E25BB3241006B6DBB /* TheCellSellTests */ = {
@@ -579,6 +630,23 @@
 			productReference = 0EE0D969252564CB0090B2E0 /* TheCellSell */;
 			productType = "com.apple.product-type.tool";
 		};
+		4A516E5F25E41D19009B06E0 /* TridentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A516E6F25E41D1F009B06E0 /* Build configuration list for PBXNativeTarget "TridentApp" */;
+			buildPhases = (
+				4A516E5C25E41D19009B06E0 /* Sources */,
+				4A516E5D25E41D19009B06E0 /* Frameworks */,
+				4A516E5E25E41D19009B06E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TridentApp;
+			productName = TridentApp;
+			productReference = 4A516E6025E41D19009B06E0 /* TridentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8140D45C25BB3241006B6DBB /* TheCellSellTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8140D46225BB3241006B6DBB /* Build configuration list for PBXNativeTarget "TheCellSellTests" */;
@@ -602,7 +670,7 @@
 		0EE0D944252563B00090B2E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					0E08FBC6254B15500014C595 = {
@@ -632,6 +700,9 @@
 					0EE0D968252564CB0090B2E0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					4A516E5F25E41D19009B06E0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					8140D45C25BB3241006B6DBB = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -660,6 +731,7 @@
 				0E08FBC6254B15500014C595 /* TridentTests */,
 				0E7364BD2528B54300F3914E /* RSANumbers */,
 				0E08FCB5254B23EE0014C595 /* RSANumbersTests */,
+				4A516E5F25E41D19009B06E0 /* TridentApp */,
 			);
 		};
 /* End PBXProject section */
@@ -725,6 +797,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A516E5E25E41D19009B06E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A516E6A25E41D1E009B06E0 /* Preview Assets.xcassets in Resources */,
+				4A516E6725E41D1E009B06E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8140D45B25BB3241006B6DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -769,6 +850,7 @@
 				0E48F48B254B4C66007530A3 /* ISpeakTXTMSGTests.swift in Sources */,
 				4AC82C0825BF281400ADFB56 /* main.swift in Sources */,
 				4A9E353425C9E4C60075718E /* Extrentions.swift in Sources */,
+				4A516E9725E41F76009B06E0 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +860,7 @@
 			files = (
 				0E7364C12528B54400F3914E /* main.swift in Sources */,
 				4A9E355525C9E4D60075718E /* Extrentions.swift in Sources */,
+				4A516E9A25E41F76009B06E0 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,6 +870,7 @@
 			files = (
 				0E736522252B632200F3914E /* main.swift in Sources */,
 				4A9E354A25C9E4D00075718E /* Extrentions.swift in Sources */,
+				4A516E9825E41F76009B06E0 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,6 +880,7 @@
 			files = (
 				0E736531252B64C800F3914E /* main.swift in Sources */,
 				4A9E353F25C9E4CD0075718E /* Extrentions.swift in Sources */,
+				4A516E9625E41F76009B06E0 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,6 +890,7 @@
 			files = (
 				0EE0D95F252563ED0090B2E0 /* main.swift in Sources */,
 				4A9E352925C9DE7E0075718E /* Extrentions.swift in Sources */,
+				4A516E9925E41F76009B06E0 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,6 +900,18 @@
 			files = (
 				0EE0D96C252564CB0090B2E0 /* main.swift in Sources */,
 				4A9E351E25C9BAD50075718E /* Extrentions.swift in Sources */,
+				4A516E9525E41F76009B06E0 /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A516E5C25E41D19009B06E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A516E6525E41D19009B06E0 /* ContentView.swift in Sources */,
+				4A516E6325E41D19009B06E0 /* TridentAppApp.swift in Sources */,
+				4A516ED325E42048009B06E0 /* Extrentions.swift in Sources */,
+				4A516EC725E42046009B06E0 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1208,6 +1306,54 @@
 			};
 			name = Release;
 		};
+		4A516E6D25E41D1F009B06E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TridentApp/TridentApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TridentApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NC7ZN86S5C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TridentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.dsmith.TridentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A516E6E25E41D1F009B06E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TridentApp/TridentApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TridentApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NC7ZN86S5C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TridentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.dsmith.TridentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		8140D46325BB3241006B6DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1335,6 +1481,15 @@
 			buildConfigurations = (
 				0EE0D96E252564CB0090B2E0 /* Debug */,
 				0EE0D96F252564CB0090B2E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A516E6F25E41D1F009B06E0 /* Build configuration list for PBXNativeTarget "TridentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A516E6D25E41D1F009B06E0 /* Debug */,
+				4A516E6E25E41D1F009B06E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
